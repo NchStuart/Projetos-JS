@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+#body-hex{
+    background-color: #6ebeff;
+}
+
+.prince{
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 50px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.primary h3 {
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(110, 190, 255);
+    text-shadow: 0px 1px 1px #ccc;
+}
+
+.secundary {
+    display: flex;
+}
+
+.secundary p a{
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.secundary p a:hover{
+    color: rgb(110, 190, 255);
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 88vh;
+    width: auto;
+}
+
+.visible-response-color{
+    margin-bottom: 10px;
+}
+
+.visible-response-color h2{
+    font-size: 40px;
+    padding: 16px;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 1px 3px #ccc;
+    border: 2px solid #222;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    box-shadow: 0 1px 3px #000;
+    background-color: #222;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn-hero{
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a{
+    color: rgb(64, 64, 146);
+}
+
+footer a:hover{
+    color: rgb(0, 0, 255);
+}
+
+
