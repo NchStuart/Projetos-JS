@@ -67,10 +67,10 @@ function recoverSavedTask() {
   const tarefas = localStorage.getItem('tarefas');
   const listaDeTarefas = JSON.parse(tarefas);
   for (let v of listaDeTarefas) {
-      gerarTarefasSaved(v);
-  }
+    gerarTarefasSaved(v);
 }
-recoverSavedTask()
+}
+recoverSavedTask();
 
 btnAddTarefa.addEventListener('click', () => {
   gerarTarefas();

@@ -9,17 +9,19 @@ function criaCalculadora() {
       alert("Oi, iniciei");
       this.clearDisplay();
       this.delAction();
-      this.realizaConta();
       this.pressionaEnter();
+      this.realizaConta();
     },
 
     btnParaDisplay(value) {
       if (this.display.value.length < 16) {
+        this.display.focus();
         this.display.value += value;
       }
     },
 
     opParaDisplay(value) {
+      this.display.focus();
       this.display.value += value;
     },
 
@@ -53,7 +55,7 @@ function criaCalculadora() {
     },
 
     pressionaEnter() {
-      window.addEventListener("keyup", e => {
+      this.display.addEventListener("keyup", e => {
         let conta = this.display.value;
         if (e.keyCode === 13) {
           conta = eval(conta);
@@ -62,7 +64,7 @@ function criaCalculadora() {
             alert("Conta invalida");
             return;
         }
-        this.display.value = String(conta);
+        this.display.value = conta;
       });
     },
   };
