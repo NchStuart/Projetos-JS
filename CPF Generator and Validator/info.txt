@@ -1,0 +1,11 @@
+Iniciar o gerenciados de pacotes do Node do NPM: npm init -y
+
+Instalar dependencia de dev e babel: npm install --save-dev @babel/cli @babel/preset-env @babel/core
+
+Converter meu codigo para o babel trabalhar: npx babel main.js -o bundle.js --presets=@babel/env
+
+--------------------------------------------------------------------------------------------------------------
+
+npm i --save-dev @babel/cli @babel/preset-env @babel/core babel-loader webpack webpack-cli regenerator-runtime core-js@2
+
+timeout 30 npm run NOMEDOSCRIPT
