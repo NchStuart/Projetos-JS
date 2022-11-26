@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="area1">
+        <label for="addtarefa">Adicionar Tarefa</label>
+        <input id="addtarefa" type="text">
+        <button class="btnaddtarefa">+</button>
+        <button class="limparTarefas">Limpar todos as tarefas</button>
+        <hr>
+        <div class="bloco">
+        <label for="pesquisar">Pesquisar:</label>
+        <input id="pesquisar" type="text">
+        <button class="btnrempesquisar"><</button>
+        <div class="linhav"></div>
+        <label for="filtrar">Filtrar:</label>
+        <select name="" id="">
+          <option class="todas" selected>Todas</option>[
+          <option class="concluidas">Concluídas</option>
+          <option class="afazer">A Fazer</option>
+        </select>
+      </div>
+    </div>
+      <div class="area2">
+        <ul class="lista">
+        </ul>
+      </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
